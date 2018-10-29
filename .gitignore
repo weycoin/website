@@ -1,5 +1,17 @@
+.env
+
 /docs/
 /lib/
 /bin/
 /.shards/
 *.dwarf
+weycoin_site
+
+sentry
+dev/sentry*
+
+.DS_Store
+
+.icr_*
+
+.crystal

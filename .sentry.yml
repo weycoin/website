@@ -1,0 +1,14 @@
+display_name: weycoin_site
+
+info: true
+
+build: crystal build ./src/wey.cr -o weycoin_site
+
+run: ./weycoin_site
+
+run_args:
+
+watch:
+  - ./config/**/*.cr
+  - ./app/**/*.cr
+  - ./src/**/*.cr
