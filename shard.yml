@@ -1,0 +1,13 @@
+name: wey
+version: 0.1.0
+
+authors:
+  - acidtib <acidtib@protonmail.com>
+
+targets:
+  wey:
+    main: src/wey.cr
+
+crystal: 0.26.1
+
+license: MIT
