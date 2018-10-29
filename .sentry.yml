@@ -11,4 +11,5 @@ run_args:
 watch:
   - ./config/**/*.cr
   - ./app/**/*.cr
+  - ./app/**/*.ecr
   - ./src/**/*.cr
