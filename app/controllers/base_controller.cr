@@ -34,5 +34,9 @@ module Wey::Controllers
     macro inherited
       def content; self.to_s end 
     end
+
+    private def img_asset(file)
+      "/images/#{file}"
+    end
   end 
 end

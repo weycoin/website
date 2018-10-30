@@ -19,9 +19,5 @@ module Wey::Controllers
     private def js_asset(file = "application.js")
       "/javascripts/#{file}"
     end
-
-    private def img_asset(file)
-      "/images/#{file}"
-    end
   end 
 end
